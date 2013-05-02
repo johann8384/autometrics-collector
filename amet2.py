@@ -4,6 +4,7 @@ import threading
 import urllib2
 from pygtail import Pygtail
  
+ ## Initial Queue Example from :http://www.blog.pythonlibrary.org/2012/08/01/python-concurrency-an-example-of-a-queue/
 ########################################################################
 class Downloader(threading.Thread):
     """Threaded File Downloader"""
